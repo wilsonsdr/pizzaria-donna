@@ -236,3 +236,28 @@ ul {
 }
 
 /* cardápio */
+
+.footer {
+  display: grid;
+  background-color: var(--cor-06);
+  place-content: center;
+  margin-top: 80px;
+  text-align: center;
+  gap: 10px;
+  position: relative;
+  height: 500px;
+  padding: 20px;
+}
+
+.footer::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 150px;
+  height: 133px;
+  background: url("/img/decorativo/tomate.svg");
+  top: -70px;
+  right: 140px;
+}
+
+/* footer */
