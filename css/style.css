@@ -28,3 +28,30 @@ ul {
 
 /* reset */
 
+.header-bg {
+  background: url("/img/banner-bg.webp") no-repeat center top;
+  background-size: cover;
+  min-height: 500px;
+}
+
+.header-color {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: RGBA(0, 0, 0, 0.8);
+  min-height: 500px;
+  position: relative;
+}
+
+.header-color::before {
+  content: "";
+  display: inline-block;
+  background: url("/img/decorativo/planta.svg") no-repeat;
+  width: 84px;
+  height: 173px;
+  position: absolute;
+  bottom: -84px;
+  left: 0;
+}
+
+/* header */
