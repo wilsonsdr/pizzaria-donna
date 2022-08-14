@@ -261,3 +261,74 @@ ul {
 }
 
 /* footer */
+
+@media (max-width: 1100px) {
+  .introducao-descricao {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding-top: 20px;
+  }
+  .introducao-capa img {
+    height: 300px;
+    object-fit: cover;
+  }
+  .introducao-lista {
+    text-align: center;
+  }
+  .introducao-capa {
+    grid-row: 1;
+  }
+  .promocao-pizza {
+    grid-template-columns: 1fr;
+  }
+  .promocao-pizza img {
+    height: 300px;
+  }
+  .promocao-descricao {
+    border: none;
+  }
+  .promocao-descricao h3 {
+    text-align: center;
+  }
+  .promocao-descricao p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .header-color h1 {
+    font-size: 5.5rem;
+  }
+  .introducao h2 {
+    font-size: 3.8rem;
+  }
+  .footer h1 {
+    font-size: 5rem;
+  }
+}
+@media (max-width: 700px) {
+  .header-color h1 {
+    font-size: 4.9rem;
+  }
+  .introducao h2 {
+    font-size: 3.5rem;
+  }
+  .cardapio-especialidades ul {
+    flex-direction: column;
+  }
+  .cardapio {
+    grid-template-columns: 1fr;
+  }
+  .footer h1 {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 600px) {
+  .header-color h1 {
+    font-size: 4rem;
+    text-align: center;
+  }
+  .footer h1 {
+    font-size: 3.5rem;
+  }
+}
