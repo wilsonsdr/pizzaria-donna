@@ -74,75 +74,101 @@
         <h2 class="font-1-xl cor-03">Cardápio</h2>
         <p class="font-2-m cor-05">Grande variedades de produtos e ingredientes, não deixe para amanhã o que você pode comer hoje.</p>
       </div>
-      <div class="cardapio-especialidades">
-        <ul class="font-2-m cor-06" aria-label="primaria">
-          <li><a href="">Tradicionais</a></li>
-          <li><a href="">Especiais</a></li>
-          <li><a href="">Fit</a></li>
-          <li><a href="">Doces</a></li>
+
+      <div id="cardapioEspecialidades">
+        <ul class="font-2-m" aria-label="primaria">
+          <li><a class="especialidades ativo" onclick="filterSelection('tradicional')">Tradicionais</a></li>
+          <li><a class="especialidades" onclick="filterSelection('especial')">Especiais</a></li>
+          <li><a class="especialidades" onclick="filterSelection('fit')">Fit</a></li>
+          <li><a class="especialidades" onclick="filterSelection('doce')">Doces</a></li>
         </ul>
       </div>
     </div>
+
     <div class="cardapio">
-      <div class="item">
-        <h3 class="font-2-m cor-03">CHAMPIGNON</h3>
-        <span id="preco" class="font-2-m cor-05">R$51,00</span>
-        <span id="ingredientes" class="font-2-s cor-06">Champignon fatiado, cebola, catupiry e azeitona preta</span>
+      <div class="pizza especial">
+        <div class="cardapio-conteudo">
+          <h3 class="font-2-m cor-03">CHAMPIGNON</h3>
+          <span id="preco" class="font-2-m cor-05">R$55,00</span>
+          <span id="ingredientes" class="font-2-s cor-06">Champignon fatiado, cebola, catupiry e azeitona preta</span>
+        </div>
       </div>
-      <div class="item">
-        <h3 class="font-2-m cor-03">MAFIOSA </h3>
-        <span id="preco" class="font-2-m cor-05">R$51,00</span>
-        <span id="ingredientes" class="font-2-s cor-06">Molho Branco, abobrinha, gorgonzola, parmesão e azeitona preta</span>
+      <div class="pizza especial">
+        <div class="cardapio-conteudo">
+          <h3 class="font-2-m cor-03">MAFIOSA </h3>
+          <span id="preco" class="font-2-m cor-05">R$55,00</span>
+          <span id="ingredientes" class="font-2-s cor-06">Molho Branco, abobrinha, gorgonzola, parmesão e azeitona preta</span>
+        </div>
       </div>
-      <div class="item">
-        <h3 class="font-2-m cor-03">PEPPERONI</h3>
-        <span id="preco" class="font-2-m cor-05">R$51,00</span>
-        <span id="ingredientes" class="font-2-s cor-06">Pepperoni, mussarela e azeitona preta</span>
+      <div class="pizza especial">
+        <div class="cardapio-conteudo">
+          <h3 class="font-2-m cor-03">PEPPERONI</h3>
+          <span id="preco" class="font-2-m cor-05">R$55,00</span>
+          <span id="ingredientes" class="font-2-s cor-06">Pepperoni, mussarela e azeitona preta</span>
+        </div>
       </div>
-      <div class="item">
-        <h3 class="font-2-m cor-03">ROMANA</h3>
-        <span id="preco" class="font-2-m cor-05">R$51,00</span>
-        <span id="ingredientes" class="font-2-s cor-06">Mussarela, rodelas de tomate, aliche importado, parmesão e azeitona preta</span>
+      <div class="pizza especial">
+        <div class="cardapio-conteudo">
+          <h3 class="font-2-m cor-03">ROMANA</h3>
+          <span id="preco" class="font-2-m cor-05">R$55,00</span>
+          <span id="ingredientes" class="font-2-s cor-06">Mussarela, rodelas de tomate, aliche importado, parmesão e azeitona preta</span>
+        </div>
       </div>
-      <div class="item">
-        <h3 class="font-2-m cor-03">FIT</h3>
-        <span id="preco" class="font-2-m cor-05">R$49,00</span>
-        <span id="ingredientes" class="font-2-s cor-06">Frango desfiado, ovos, brócolos, cebola roxa, palmido e azeitona preta</span>
+      <div class="pizza fit">
+        <div class="cardapio-conteudo">
+          <h3 class="font-2-m cor-03">FIT</h3>
+          <span id="preco" class="font-2-m cor-05">R$51,00</span>
+          <span id="ingredientes" class="font-2-s cor-06">Frango desfiado, ovos, brócolos, cebola roxa, palmido e azeitona preta</span>
+        </div>
       </div>
-      <div class="item">
-        <h3 class="font-2-m cor-03">FIT GOURMET</h3>
-        <span id="preco" class="font-2-m cor-05">R$51,00</span>
-        <span id="ingredientes" class="font-2-s cor-06">Frango desfiado, pimentão vermelho, tomate seco, rúcula e azeitona preta</span>
+      <div class="pizza fit">
+        <div class="cardapio-conteudo">
+          <h3 class="font-2-m cor-03">FIT GOURMET</h3>
+          <span id="preco" class="font-2-m cor-05">R$51,00</span>
+          <span id="ingredientes" class="font-2-s cor-06">Frango desfiado, pimentão vermelho, tomate seco, rúcula e azeitona preta</span>
+        </div>
       </div>
-      <div class="item">
-        <h3 class="font-2-m cor-03">PROTEICA</h3>
-        <span id="preco" class="font-2-m cor-05">R$49,00</span>
-        <span id="ingredientes" class="font-2-s cor-06">Frango desfiado, atum, ovos, presunto parma, mussarela de búfala, tomate cereja e azeitona preta</span>
+      <div class="pizza fit">
+        <div class="cardapio-conteudo">
+          <h3 class="font-2-m cor-03">PROTEICA</h3>
+          <span id="preco" class="font-2-m cor-05">R$51,00</span>
+          <span id="ingredientes" class="font-2-s cor-06">Frango desfiado, atum, ovos, presunto parma, mussarela de búfala, tomate cereja e azeitona preta</span>
+        </div>
       </div>
-      <div class="item">
-        <h3 class="font-2-m cor-03">LIGHT</h3>
-        <span id="preco" class="font-2-m cor-05">R$49,00</span>
-        <span id="ingredientes" class="font-2-s cor-06">Atum, abobrinha, alho poró, tomate cereja e azeitona preta</span>
+      <div class="pizza fit">
+        <div class="cardapio-conteudo">
+          <h3 class="font-2-m cor-03">LIGHT</h3>
+          <span id="preco" class="font-2-m cor-05">R$49,00</span>
+          <span id="ingredientes" class="font-2-s cor-06">Atum, abobrinha, alho poró, tomate cereja e azeitona preta</span>
+        </div>
       </div>
-      <div class="item">
-        <h3 class="font-2-m cor-03">VEGETARIANA</h3>
-        <span id="preco" class="font-2-m cor-05">R$49,00</span>
-        <span id="ingredientes" class="font-2-s cor-06">Berinjela, ervilhas frescas, champignon, rodelas de palmito, mussarela de búfala e azeitona preta</span>
+      <div class="pizza fit">
+        <div class="cardapio-conteudo">
+          <h3 class="font-2-m cor-03">VEGETARIANA</h3>
+          <span id="preco" class="font-2-m cor-05">R$49,00</span>
+          <span id="ingredientes" class="font-2-s cor-06">Berinjela, ervilhas frescas, champignon, rodelas de palmito, mussarela de búfala e azeitona preta</span>
+        </div>
       </div>
-      <div class="item">
-        <h3 class="font-2-m cor-03">BRIGADEIRO</h3>
-        <span id="preco" class="font-2-m cor-05">R$42,00</span>
-        <span id="ingredientes" class="font-2-s cor-06">Chocolate ao leite com granulado</span>
+      <div class="pizza doce">
+        <div class="cardapio-conteudo">
+          <h3 class="font-2-m cor-03">BRIGADEIRO</h3>
+          <span id="preco" class="font-2-m cor-05">R$42,00</span>
+          <span id="ingredientes" class="font-2-s cor-06">Chocolate ao leite com granulado</span>
+        </div>
       </div>
-      <div class="item">
-        <h3 class="font-2-m cor-03">ROMEU E JULIETA</h3>
-        <span id="preco" class="font-2-m cor-05">R$42,00</span>
-        <span id="ingredientes" class="font-2-s cor-06">Goiabada e catupiry</span>
+      <div class="pizza doce">
+        <div class="cardapio-conteudo">
+          <h3 class="font-2-m cor-03">ROMEU E JULIETA</h3>
+          <span id="preco" class="font-2-m cor-05">R$42,00</span>
+          <span id="ingredientes" class="font-2-s cor-06">Goiabada e catupiry</span>
+        </div>
       </div>
-      <div class="item">
-        <h3 class="font-2-m cor-03">PRESTÍGIO</h3>
-        <span id="preco" class="font-2-m cor-05">R$42,00</span>
-        <span id="ingredientes" class="font-2-s cor-06">Beijinho com chocolate</span>
+      <div class="pizza doce">
+        <div class="cardapio-conteudo">
+          <h3 class="font-2-m cor-03">PRESTÍGIO</h3>
+          <span id="preco" class="font-2-m cor-05">R$42,00</span>
+          <span id="ingredientes" class="font-2-s cor-06">Beijinho com chocolate</span>
+        </div>
       </div>
     </div>
   </article>
@@ -156,7 +182,8 @@
     <span class="font-2-m cor-04">Esse site é um canal de denúncia contra violênica doméstica e todas as informações são confidencias e repassadas à polícia.</span>
   </footer>
 
-<script src="./js/watsonAssistant.js"></script>
+  <script src="./js/script.js"></script>
+  <script src="./js/watsonAssistant.js"></script>
 </body>
 
 </html>

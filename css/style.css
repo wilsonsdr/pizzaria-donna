@@ -192,25 +192,16 @@ ul {
   gap: 10px;
 }
 
-.cardapio-especialidades ul {
+#cardapioEspecialidades ul {
   display: flex;
   gap: 10px;
 }
 
-.cardapio-especialidades li:first-child {
-  background-color: var(--cor-03);
-  color: var(--cor-02);
-}
-
-.cardapio-especialidades a {
+#cardapioEspecialidades a {
   display: inline-block;
   border: 1px solid var(--cor-04);
   padding: 10px 20px;
-}
-
-.cardapio-especialidades a:hover {
-  background-color: var(--cor-03);
-  color: var(--cor-02);
+  cursor: pointer;
 }
 
 .cardapio {
@@ -220,7 +211,15 @@ ul {
   align-items: flex-start;
 }
 
-.item {
+.pizza {
+  display: none;
+}
+
+.mostrar {
+  display: grid;
+}
+
+.cardapio-conteudo {
   display: grid;
   grid-template-columns: 1fr auto;
   padding: 20px 0;
@@ -233,6 +232,16 @@ ul {
 
 #ingredientes {
   grid-column: 1 / -1;
+}
+
+#cardapioEspecialidades a:hover {
+  background-color: var(--cor-01);
+  color: var(--cor-02);
+}
+
+#cardapioEspecialidades a.ativo {
+  background-color: var(--cor-03);
+  color: var(--cor-02);
 }
 
 /* cardápio */
@@ -313,7 +322,7 @@ ul {
   .introducao h2 {
     font-size: 3.5rem;
   }
-  .cardapio-especialidades ul {
+  #cardapioEspecialidades ul {
     flex-direction: column;
   }
   .cardapio {
