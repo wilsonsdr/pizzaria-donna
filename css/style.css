@@ -235,8 +235,7 @@ ul {
 }
 
 #cardapioEspecialidades a:hover {
-  background-color: var(--cor-01);
-  color: var(--cor-02);
+  color: var(--cor-03);
 }
 
 #cardapioEspecialidades a.ativo {
