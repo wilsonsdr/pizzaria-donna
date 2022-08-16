@@ -10,8 +10,8 @@
 body {
   max-width: 1400px;
   margin: 0 auto;
-}
 
+}
 img {
   display: block;
   max-width: 100%;
@@ -29,7 +29,7 @@ ul {
 /* reset */
 
 .header-bg {
-  background: url("/img/banner-bg.webp") no-repeat center top;
+  background: url("../img/banner-bg.webp") no-repeat center top;
   background-size: cover;
   min-height: 500px;
 }
@@ -46,7 +46,7 @@ ul {
 .header-color::before {
   content: "";
   display: inline-block;
-  background: url("/img/decorativo/planta.svg") no-repeat;
+  background: url("../img/decorativo/planta.svg") no-repeat;
   width: 84px;
   height: 173px;
   position: absolute;
@@ -107,7 +107,7 @@ ul {
 }
 
 .promocao-bg {
-  background: url("/img/pizza02.webp") no-repeat center top;
+  background: url("../img/pizza02.webp") no-repeat center top;
   background-size: cover;
   min-height: 500px;
 }
@@ -124,7 +124,7 @@ ul {
 .promocao-color::before {
   content: "";
   display: inline-block;
-  background: url("/img/decorativo/folha.svg") no-repeat;
+  background: url("../img/decorativo/folha.svg") no-repeat;
   width: 73px;
   height: 127px;
   position: absolute;
@@ -179,7 +179,7 @@ ul {
   content: "";
   display: inline-block;
   position: absolute;
-  background: url("/img/decorativo/pimenta.svg");
+  background: url("../img/decorativo/pimenta.svg");
   width: 96px;
   height: 152px;
   top: -20px;
@@ -264,7 +264,7 @@ ul {
   position: absolute;
   width: 150px;
   height: 133px;
-  background: url("/img/decorativo/tomate.svg");
+  background: url("../img/decorativo/tomate.svg");
   top: -70px;
   right: 140px;
 }
