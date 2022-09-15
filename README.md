@@ -2,17 +2,17 @@
 
 # Descrição do projeto
 
-Este projeto foi elaborado durante o meu período de estágio na IBM, o tema era livre, porém era obrigatório que utilizasse uma ferramenta ou serviço da empresa para realização do projeto. 
+Este projeto foi elaborado durante o meu período de estágio na IBM, o tema era livre, porém era obrigatório que utilizasse uma ferramenta ou serviço da empresa para realização do projeto, optei por utilizar o Watson Assistant, para criação de um chatbot
 
-Optei por utilizar o Watson Assistant, para criação de um chatbot.
+O tema escolhido foi a violência doméstica contra as mulheres e crianças, um dos problemas relacionado a isso é por não ter um meio de comunicação confiável e seguro, em que a vítima possa realizar a sua denúncia de forma discreta sem causar suspeita do agressor
 
-O tema escolhido foi a violência doméstica contra as mulheres e crianças, um dos problemas relacionado a isso é por não ter um meio de comunicação confiável e seguro, em que a vítima possa realizar a sua denúncia de forma discreta sem causar suspeita do agressor.
+Pensando nisso, desenvolvi uma landing page com design de uma pizzaria, em que a vítima simularia estar realizando um pedido de uma pizza através do chatbot, mas na realidade, as informações fornecidas serão repassadas diretamente a polícia
 
-Pensando nisso, desenvolvi uma landing page com aparência de uma pizzaria, em que a vítima simularia estar realizando um pedido de uma pizza através do chatbot, mas na realidade, as informações fornecidas serão repassadas diretamente a polícia. 
+Antes de partir para os códigos, criei a User Interface no [Figma](https://www.figma.com/file/fbNJRA0NLWhIjFrOt9LkI6/Pizzaria-Donna?node-id=0%3A1) de como ficaria o projeto
 
-Antes de partir para os códigos, criei a User Interface no [Figma](https://www.figma.com/file/fbNJRA0NLWhIjFrOt9LkI6/Pizzaria-Donna?node-id=0%3A1) de como ficaria o projeto. 
+Para conhecer o projeto final, [clique aqui](https://wilsonsdr.github.io/pizzaria-donna/)
 
-Para conhecer o projeto final, [clique aqui](https://wilsonsdr.github.io/pizzaria-donna/).
+<br>
 
 | Demonstração  |  Funcionalidades  |
 | ------------------- | ------------------- |
